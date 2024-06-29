@@ -92,11 +92,11 @@ function pop_Nuancesentte_0(feature, layer) {
             </tr>\
             <tr>\
                 <th scope="row">Sortant·e</th>\
-                <td class="visible-with-data" id="Swings_Sortant·e">' + (feature.properties['Swings_Sortant·e'] !== null ? autolinker.link(feature.properties['Swings_Sortant·e'].toLocaleString() + ' %') : '') + '</td>\
+                <td class="visible-with-data" id="Swings_Sortant·e">' + (feature.properties['Swings_Sortant·e'] !== null ? autolinker.link(feature.properties['Swings_Sortant·e'].toLocaleString() + '') : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Candidat NFP</th>\
-                <td class="visible-with-data" id="Swings_Candidat NFP">' + (feature.properties['Swings_Candidat NFP'] !== null ? autolinker.link(feature.properties['Swings_Candidat NFP'].toLocaleString() + ' %') : '') + '</td>\
+                <td class="visible-with-data" id="Swings_Candidat NFP">' + (feature.properties['Swings_Candidat NFP'] !== null ? autolinker.link(feature.properties['Swings_Candidat NFP'].toLocaleString() + '') : '') + '</td>\
             </tr>\
             <tr>\
                 <td colspan="2">&nbsp;</td>\
@@ -115,9 +115,6 @@ function pop_Nuancesentte_0(feature, layer) {
             <tr>\
                 <th scope="row">RN</th>\
                 <td class="visible-with-data" id="Swings_LEG22 RN T1">' + (feature.properties['Swings_LEG22 RN T1'] !== null ? autolinker.link(feature.properties['Swings_LEG22 RN T1'].toLocaleString() + ' %') : '') + '</td>\
-            </tr>\
-            <tr>\
-                <td colspan="2">' + (feature.properties['Swings_LEG22_T2_LR'] !== null ? autolinker.link(feature.properties['Swings_LEG22_T2_LR'].toLocaleString() + ' %') : '') + '</td>\
             </tr>\
             <tr>\
                 <td colspan="2">&nbsp;</td>\
@@ -168,6 +165,10 @@ function pop_Nuancesentte_0(feature, layer) {
             <tr>\
                 <th scope="row">DIV</th>\
                 <td class="visible-with-data" id="Swings_LEG22_T2_DIV">' + (feature.properties['Swings_LEG22_T2_DIV'] !== null ? autolinker.link(feature.properties['Swings_LEG22_T2_DIV'].toLocaleString() + ' %') : '') + '</td>\
+            </tr>\
+            <tr>\
+                <th scope="row">LR</th>\
+                <td class="visible-with-data" id="Swings_LEG22_T2_LR">' + (feature.properties['Swings_LEG22_T2_LR'] !== null ? autolinker.link(feature.properties['Swings_LEG22_T2_LR'].toLocaleString() + ' %') : '') + '</td>\
             </tr>\
             <tr>\
                 <td colspan="2">&nbsp;</td>\
@@ -454,3 +455,4 @@ function pop_Nuancesentte_0(feature, layer) {
         </script>
     </body>
 </html>
+
